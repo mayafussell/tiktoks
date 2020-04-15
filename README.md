@@ -1,2 +1,3 @@
 # tiktoks
-code from https://www.tiktok.com/@freshhfruit
+
+I put all the code from my Tiktok videos here
