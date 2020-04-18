@@ -1,0 +1,6 @@
+import codecs
+
+secretLetter = b"CgpEZWFyIEFsZXhpcywKCkknbSBzb3JyeSB0aGF0IEkgYW0gbWFraW5nIHRoaXMgVGlrVG9rIGluc3RlYWQgb2YgaGFuZ2luZwpvdXQgd2l0aCB5b3UgOigKCkkgcHJvbWlzZSBJIHdpbGwgbWFrZSBpdCB1cCB0byB5b3UhIQoKWW91J3JlIGN1dGUKClRoYW5rcywKTWljaGFlbAoK"
+
+loveLetter = codecs.decode(secretLetter, 'base64')
+print(loveLetter)
