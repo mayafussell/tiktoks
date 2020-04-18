@@ -1,6 +1,6 @@
-import base64
+import codecs
 
-loveLetter = b"""
+loveLetter = """
 
 Dear Alexis,
 
@@ -16,5 +16,5 @@ Michael
 
 """
 
-secretMessage = base64.b64encode(loveLetter)
-print(secretMessage)
+secretLetter = codecs.encode(bytes(loveLetter, 'utf8'), 'base64')
+print(secretLetter)
